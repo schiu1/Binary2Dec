@@ -14,8 +14,8 @@
     <form>
         <div id="input">
             Binary: 
-            <input type="text" id="binary" maxlength="8" size="5"> 
-            <input type="button" value="Calculate" onclick="Bin2Dec(document.getElementById('binary'))">
+            <input type="text" id="binary" maxlength="8" size="5" autocomplete="off"> 
+            <input type="button" value="Calculate" onclick="Bin2Dec(document.getElementById('binary').value)">
         </div>
         <div id="output">Decimal: </div>
     </form>
